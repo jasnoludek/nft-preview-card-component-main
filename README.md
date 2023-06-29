@@ -10,6 +10,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+<<<<<<< HEAD
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -22,6 +23,17 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### The challenge
 
+=======
+- [Author](#author)
+
+
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+>>>>>>> 3d6fa12c7532a83b9045cdd7bede5b3965f697ad
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -29,6 +41,7 @@ Users should be able to:
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
@@ -109,3 +122,25 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+=======
+![project screenshot](images/screenshot.png)
+
+### Links
+
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-component-iAb5HUNM9o)
+- Live Site URL: [Live Site](https://jasnoludek.github.io/nft-preview-card-component-main/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+
+## Author
+
+- Frontend Mentor - [@jasnoludek](https://www.frontendmentor.io/profile/jasnoludek)
+
+>>>>>>> 3d6fa12c7532a83b9045cdd7bede5b3965f697ad
