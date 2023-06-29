@@ -10,6 +10,11 @@
     padding: 0;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 :root {
     /*TYPOGRAPHY*/
     --ff: 'Outfit', sans-serif;
@@ -45,12 +50,15 @@ body {
 
   .card-container {
     background-color: var(--ncol__bg-card);
+    max-width: 21.875rem;
     margin: 2rem 1rem;
     border-radius: 1rem;
     padding: 1.5rem;
     overflow: hidden;
     display: grid;
     gap: 1.5rem;
+    box-shadow: 0 1.25rem 0 1rem hsl(217, 54%, 10%), 
+                0 1.25rem 0 3rem hsl(217, 58%, 10.5%); 
   }
 
   .img-container {
@@ -63,7 +71,6 @@ body {
   .img-hero {
     display: block;
     width: 100%;
-    cursor: pointer;
   }
 
   .img-overlay {
@@ -92,7 +99,6 @@ body {
   h1 {
     color: var(--ncol__white);
     font-weight: var(--fw__semi-bold);
-    cursor: pointer;
   }
 
   h1:hover {
@@ -107,6 +113,7 @@ body {
   .det-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .eth {
@@ -147,12 +154,11 @@ body {
     border-radius: 50%;
   }
 
-  span {
+  .jules-w {
     color: var(--ncol__white);
-    cursor: pointer;
   }
 
-  span:hover {
+  .jules-w:hover {
     color: var(--pcol__cyan);
   }
 
@@ -164,18 +170,3 @@ body {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-@media (min-width: 48rem) {
-  .card-container {
-    max-width: 23rem;
-    gap: 1.25rem;
-    box-shadow: -1rem 2rem 0 hsl(217, 54%, 10%), 
-                 1rem 2rem 0 hsl(217, 54%, 10%),
-                 3rem 4rem 0 hsl(221, 54%, 11%),
-                -3rem 4rem 0 hsl(221, 54%, 11%);
-  }
-
-  h1 {
-    font-size: 1.375rem;
-  }
-}
